@@ -708,7 +708,10 @@ const CategoryStep = (props: {
       <Row className="call-to-action">
         <h2>List an item</h2>
         <p>
-          First time listing on Metaplex? <a>Read our sellers&apos; guide.</a>
+          First time listing on GenDora?{' '}
+          <a href="https://discord.gg/gendora" target="_blank" rel="noreferrer">
+            Ask our Mods on Discord.
+          </a>
         </p>
       </Row>
       <Row justify={width < 768 ? 'center' : 'start'}>
@@ -2110,7 +2113,7 @@ const WaitingStep = (props: {
     >
       <Progress type="circle" percent={progress} />
       <div className="waiting-title">
-        Your creation is being listed with Metaplex...
+        Your creation is being listed with GenDora...
       </div>
       <div className="waiting-subtitle">This can take up to 30 seconds.</div>
     </div>

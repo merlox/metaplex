@@ -55,7 +55,14 @@ export const Banner = (props: {
           {props.children}
           <div className="powered-by">
             <span>
-              POWERED BY <b>METAPLEX</b>
+              Curated by <b>GenDora </b>
+              <a
+                href="https://ftx.com/referrals#a=91612733"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open <b>FTX</b> accounts.
+              </a>
             </span>
           </div>
         </div>
