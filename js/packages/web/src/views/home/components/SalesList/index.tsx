@@ -44,8 +44,9 @@ export const SalesListView = (props: { collectionMintFilter?: string }) => {
       {!props.collectionMintFilter && (
         <Banner
           src="/ikiswap-banner.png"
-          headingText="The amazing island of GenDora."
-          subHeadingText="Buy exclusive GenDora NFTs."
+          headingText="FAIRYDE"
+          subHeadingText="Elecronic Sub-register."
+          subHeadingText2="1418 VISTA AVE, NAPA, CA 94559."
           actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
           useBannerBg
         />

@@ -250,7 +250,7 @@ const CategoryStep = (props: {
       <Row className="call-to-action">
         <h2>Create a new item</h2>
         <p>
-          First time creating on GenDora?{' '}
+          First time creating on FAIRYDE?{' '}
           <a href="https://discord.gg/gendora" target="_blank" rel="noreferrer">
             Ask our Mods on Discord.
           </a>

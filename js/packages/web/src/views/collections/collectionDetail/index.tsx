@@ -22,6 +22,7 @@ export const CollectionDetailView = () => {
           src={data?.image ?? ''}
           headingText={data?.name ?? ''}
           subHeadingText={data?.description ?? ''}
+          subHeadingText2={data?.description ?? ''}
           useBannerBg
         />
       </div>

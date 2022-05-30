@@ -430,7 +430,7 @@ const Home = (props: HomeProps) => {
             display="block"
             style={{ marginTop: 7, color: 'grey' }}
           >
-            Curated by GenDora
+            Curated by FAIRYDE
           </Typography>
         </Paper>
       </Container>

@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>GenDora NFT Marketplace</title>
+        <title>FAIRYDE NFT Marketplace</title>
       </Head>
       <div id="root">
         <Component {...pageProps} />
