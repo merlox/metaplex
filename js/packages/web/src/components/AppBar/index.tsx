@@ -113,7 +113,7 @@ export const MetaplexMenu = () => {
 export const LogoLink = () => {
   return (
     <Link to={`/`}>
-      <img src={'/dnl3.svg'} />
+      <img src={'/fairyde-navbar_logo.svg'} />
     </Link>
   );
 };

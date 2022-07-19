@@ -43,10 +43,11 @@ export const SalesListView = (props: { collectionMintFilter?: string }) => {
     <>
       {!props.collectionMintFilter && (
         <Banner
-          src="/ikiswap-banner.png"
-          headingText="FAIRYDE"
-          subHeadingText="Elecronic Sub-register."
-          subHeadingText2="1418 VISTA AVE, NAPA, CA 94559."
+          src="/hero_bg.png"
+          headingText="FAIRYDE’S ASSET SUB-REGISTRY & SHARE TRACKING (FASST) PLATFORM"
+          subHeadingText="Uncover, the world’s first and largest Ride-To-Earn Interchange for riding, hailing, buying, leasing, renting and even investing in NFFTs (Non-Fossil Fuel Transports).
+You can help our Environment by Collecting and Trading Ride-To-Earn Community-centric NFFTs"
+          subHeadingText2="Download it soon to track your NFFT Portfolio & FAIRYDE Shares. Effortlessly TRADE your RYDE and FARE tokens"
           actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
           useBannerBg
         />
