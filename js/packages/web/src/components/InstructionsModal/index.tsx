@@ -46,13 +46,13 @@ export const ModalContent: React.FC<ModalContentProps> = ({ children }) => {
   return (
     <div className="site-card-wrapper">
       <Row gutter={16}>
-        <Col span={24} xl={8}>
+        <Col span={24} xl={24}>
           {children[0]}{' '}
         </Col>
-        <Col span={24} xl={8}>
+        <Col span={24} xl={24}>
           {children[1]}
         </Col>
-        <Col span={24} xl={8}>
+        <Col span={24} xl={24}>
           {children[2]}
         </Col>
       </Row>
