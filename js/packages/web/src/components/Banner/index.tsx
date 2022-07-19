@@ -57,7 +57,7 @@ export const Banner = (props: {
             <div id={'sub-heading'}>{props.subHeadingText}</div>
             <div id={'sub-heading'}>{props.subHeadingText2}</div>
             <div>
-              <b>COMMING SOON!</b>
+              <b>COMING SOON!</b>
             </div>
             <div className="banner-buttons">
               <img height="40" src="/stores.png" />
